@@ -6,12 +6,12 @@
 <manifest>
   <include name="../platforms/taro.xml" />
 
-  <project path="device/xiaomi/marble" name="clo-marble/device_xiaomi_marble" remote="github" revision="calcite" />
-  <project path="device/xiaomi/marble-kernel" name="clo-marble/device_xiaomi_marble-kernel" remote="github" revision="calcite" clone-depth="1" />
-  <project path="device/xiaomi/sm8450-common" name="clo-marble/device_xiaomi_sm8450-common" remote="github" revision="calcite" />
-  <project path="hardware/xiaomi" name="clo-marble/hardware_xiaomi" remote="github" revision="calcite" />
-  <project path="vendor/xiaomi/marble" name="clo-marble/vendor_xiaomi_marble" remote="github" revision="calcite" />
-  <project path="vendor/xiaomi/marble-firmware" name="clo-marble/vendor_xiaomi_marble-firmware" remote="github" revision="calcite" clone-depth="1" />
-  <project path="vendor/xiaomi/sm8450-common" name="clo-marble/vendor_xiaomi_sm8450-common" remote="github" revision="calcite" />
-  <project path="vendor/xiaomi/camera" name="clo-marble/vendor_xiaomi_camera" remote="github" revision="calcite" />
+  <project path="device/xiaomi/marble" name="zorozen/android_device_xiaomi_marble" remote="github" revision="calcite" />
+  <project path="device/xiaomi/marble-kernel" name="zorozen/android_device_xiaomi_marble-kernel" remote="github" revision="calcite" clone-depth="1" />
+  <project path="device/xiaomi/sm8450-common" name="zorozen/android_device_xiaomi_sm8450-common" remote="github" revision="calcite" />
+  <project path="hardware/xiaomi" name="zorozen/android_hardware_xiaomi" remote="github" revision="calcite" />
+  <project path="vendor/xiaomi/marble" name="zorozen/proprietary_vendor_xiaomi_marble" remote="github" revision="calcite" />
+  <project path="vendor/xiaomi/marble-firmware" name="zorozen/proprietary_vendor_xiaomi_marble-firmware" remote="github" revision="calcite" clone-depth="1" />
+  <project path="vendor/xiaomi/sm8450-common" name="zorozen/proprietary_vendor_xiaomi_sm8450-common" remote="github" revision="calcite" />
+  <project path="vendor/xiaomi/camera" name="zorozen/proprietary_vendor_xiaomi_camera" remote="github" revision="calcite-marble" />
 </manifest>
